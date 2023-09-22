@@ -155,7 +155,22 @@ body.dark-theme {
 }
 
 /*=============== HEADER & NAV ===============*/
+.header{
+  width: 100px;
+  position: fixed;
+  bottom: 2rem;
+  left: 0;
+  z-index: var(--z-fixed);
+}
 
+.nav{
+  height: calc(var(--header-height)+ .5rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--body-color);
+  box-shadow: 0 4px 20px;
+}
 
 /* Show menu */
 
